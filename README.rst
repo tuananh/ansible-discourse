@@ -105,7 +105,7 @@ The very first run will take 10-25 minutes depending on your hardware. A good
 chunk is spent compiling Ruby, so `En Garde <https://xkcd.com/303/>`_!
 
 .. code-block:: console
-
+    $ localedef -v -c -i en_US -f UTF-8 en_US.UTF-8 # if locale is not set
     $ sudo ./deploy-local.sh
 
 You should configure a firewall with ports 22, 80 and 443 open. You should also
